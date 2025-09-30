@@ -32,10 +32,14 @@ export default function App() {
   useEffect(() => { load() }, [])
 
   return (
+    
     <Container className="py-4">
       <Row className="mb-3">
         <Col><h3>사용자 관리</h3></Col>
       </Row>
+
+      <h1>My App</h1>
+      <p className="mt-2">CI/CD OK 🚀</p>
 
       <Row className="g-2 align-items-end mb-4">
         <Col md={4}>
